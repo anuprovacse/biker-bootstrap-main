@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biker Vai</title>
+    <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- font Awesome -->
+    <script src="https://kit.fontawesome.com/468248347f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- header starts -->
+    <header class="header-bg">
+        <!-- navbar -->
+        <section>
+            <nav class="navbar navbar-expand-lg navbar-light bg-nav fixed-top mb-4">
+                <div class="container">
+                    <a class="navbar-brand d-flex align-items-center col-6 col-lg-6" href="#">
+                        <i class="fas fa-motorcycle nav-color"> <span class="span-default">Biker-Vai</span></i>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link nav-text" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-text" href="#bikes">Bikes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-text" href="#review">Reviews</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-text" href="#service">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-text" href="#subscribe">Subscribe</a>
+                            </li>
+                            <button class="btn btn-purchase ms-5"><i class="fas fa-sign-in-alt"> Login</i></button>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+
+        <section class="container-fluid row d-flex align-items-center p-5">
+            <div class="col-lg-6 col-md-6 col-12 p-5">
+                <h6 class="header-h6">Computer-controlled digital transistorized with electronic advance</h6>
+                <h1 class="header-h1">Honda CBR 300R</h1>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua
+                    dolor do amet sint. Velit officia consequat
+                    duis
+                    enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-purchase" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Purchase
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-dark" id="exampleModalLabel">Want to buy?</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h4 class="text-danger">You need around 5 lac bdt to afford this!!!</h4>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Ok Bye</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12 bike-header">
+                <img class="w-100 bike" src="images/header-bike.png" alt="">
+            </div>
+        </section>
+    </header>
+    <!-- header ends -->
+
+
+    <!-- main section starts -->
+    <main class="container text-center">
+
+        <!-- bonus part-1 -->
+        <section class="my-5">
+            <div class="py-2">
+                <h1>Everyones 1st <span class="span-default">Choice.</span></h1>
+                <p>Be a part of our family.</p>
+            </div>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/caro-1.jpg" class="d-block w-100 rounded-2" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Stunning Look</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/caro-2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Fast And Safe</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/caro-3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Your Absolute Partner</h5>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- feature bike section -->
+        <section class="my-5">
+            <h1>Fetured Bikes 2021</h1>
+            <h4 style="color:#E76F51;">Best bike collection</h4>
+
+            <div id="bikes" class="row justify-content-between mt-5">
+                <div class="col-12 col-md-6 col-lg-4"><img class="grayscale bike" src="images/feature-bike.jpg" alt=""></div>
+                <div class="col-12 col-md-6 col-lg-4"><img class="bike" src="images/feature-bike.jpg" alt=""></div>
+                <div class="col-12 col-md-6 col-lg-4"><img class="grayscale bike" src="images/feature-bike.jpg" alt=""></div>
+            </div>
+        </section>
+
+
+        <!-- Latest news section (optional) -->
+        <section id="service" class="client-text py-5">
+            <h1 class="mb-3">
+                Latest <span class="span-default">News</span>
+            </h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4 client-review mt-3">
+                <div class="col">
+                    <div class="card h-100 p-3">
+                        <div class="d-flex justify-content-center">
+                            <img src="images/bike-1.png" class="card-img-top bike" alt="user">
+                        </div>
+                        <div class="card-body">
+                            <h3>Ducati XDIAVEL S-73</h3>
+                            <p class="card-text">XDiavel, the Ducati cruiser that combines the best of both worlds, is
+                                renewed, still remaining true to its philosophy.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 p-3">
+                        <div class="d-flex justify-content-center">
+                            <img src="images/bike-2.png" class="card-img-top bike" alt="user">
+                        </div>
+                        <div class="card-body">
+                            <h3>Motorbikes & Scooters</h3>
+                            <p class="card-text">While the motorcycle is a combination of motor and bicycle, the
+                                motorbike is a combo of motor and bike.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 p-3">
+                        <div class="d-flex justify-content-center">
+                            <img src="images/bike-3.png" class="card-img-top bike" alt="user">
+                        </div>
+                        <div class="card-body">
+                            <h3>2021 Honda CBR500R</h3>
+                            <p class="card-text">Honda
+                                CBR500R is one of our most popular sportbikes. It just gets so many things right. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- client section -->
+        <section id="review" class="client-text py-5">
+            <h1 class="mb-3">
+                Happy <span class="span-default">Clients says</span>
+            </h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4 client-review mt-3">
+                <div class="col">
+                    <div class="card h-100 p-4">
+                        <div>
+                            <img src="images/user-1.png" class="w-50 card-img-top bike" alt="user">
+                        </div>
+
+                        <div class="card-body">
+                            <p class="card-text">Mostafizur helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.</p>
+                        </div>
+                        <div class="star">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="my-3">
+                            <h6 class="customer-h6">Mokhles Abul</h6>
+                            <h6 class="text-dark">Occuption : Banker</h6>
+                        </div>
+
+                        <div class="card-footer">
+                            <small class="text-muted">Reviewed 3 hours ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 p-4">
+                        <div>
+                            <img src="images/user-2.png" class="w-50 card-img-top bike" alt="user">
+                        </div>
+
+                        <div class="card-body">
+                            <p class="card-text"> He is interested in the impact of digital platforms on industries and
+                                markets, and most of his work focuses on the empirical analysis of a variety of
+                                companies including Airbnb, TripAdvisor, and Expedia.</p>
+                        </div>
+                        <div class="star">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="my-3">
+                            <h6 class="customer-h6">Jorina khatun</h6>
+                            <h6 class="text-dark">Occuption : Accountant</h6>
+                        </div>
+
+                        <div class="card-footer">
+                            <small class="text-muted">Reviewed 9 hours ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 p-4">
+                        <div>
+                            <img src="images/user-3.jpg" class="rounded-client card-img-top bike" alt="user">
+                        </div>
+
+                        <div class="card-body">
+                            <p class="card-text">His research focuses on the role of firm strategy in economic policy
+                                and the economics of online platforms.</p>
+                        </div>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="my-3">
+                            <h6 class="customer-h6">Jhakri Madam</h6>
+                            <h6 class="text-dark">Occuption : Artist</h6>
+                        </div>
+
+                        <div class="card-footer">
+                            <small class="text-muted">Reviewed 2 days ago</small>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- FAQ section -->
+        <section class="my-5">
+            <h1>Frequently Asked <span class="span-default">Questions</span> </h1>
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-6 col-12">
+                    <div class="w-100 px-5">
+                        <!-- <img class="w-100 p-5" src="images/faq.png" alt=""> -->
+            <img class="w-100 bike" src="https://64.media.tumblr.com/9e4176a7e3ba14fe8f5d314e1460fb17/tumblr_mhu37w9yUf1r3d8abo1_r1_500.gifv" alt="">
+
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="w-100">
+                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                        aria-controls="panelsStayOpen-collapseOne">
+                                        What are the most important things I should <br>
+                                        know about riding a bike?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="panelsStayOpen-headingOne">
+                                    <div class="accordion-body">
+                                        <p>Safety First! Always obey the rules of the road. Obey all traffic signals,
+                                            signs,
+                                            and
+                                            laws. Get in the mindset of “driving” your bike—not just “riding” your bike.
+                                            This
+                                            will help you be a more focused and legally compliant bike rider. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapseTwo">
+                                        How can I tell if my helmet is old and I need a
+                                        new one?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="panelsStayOpen-headingTwo">
+                                    <div class="accordion-body">
+                                        The general rule of thumb is to consider replacing your helmet every 3-5 years
+                                        barring that the helmet has not experienced any accidents or significant impact.
+                                        Most manufacturers and safety organizations recommend this especially if you
+                                        wear your helmet consistently.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapseThree">
+                                        My bike has been in storage is it safe to ride?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="panelsStayOpen-headingThree">
+                                    <div class="accordion-body">
+                                        There is no British law to compel cyclists, of any age, to wear helmets when
+                                        cycling, even though the Highway Code suggests that cyclists should wear a cycle
+                                        helmet “which conforms to current regulations, is the correct size and securely
+                                        fastened.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapseThree">What rules should I follow when
+                                        riding
+                                        my
+                                        bike?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="panelsStayOpen-headingThree">
+                                    <div class="accordion-body">
+                                        Morning 5 AM - 8 AM is the ideal time for cycling as that is the best time when
+                                        it has the least traffic on the roads, the proper light which is required for
+                                        visibility ( in winter the starting time could be 5:30 AM ) .
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- bike preference section (bonus part-2) -->
+        <section id="service" class="client-text py-5">
+            <h1 class="mb-3">
+                Why <span class="span-default">chose us?</span>
+            </h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4 client-review mt-3">
+                <div class="col">
+                    <div class="card h-100 p-1">
+                        <div class="d-flex justify-content-center">
+                            <img src="images/repair-1.jpg" class="card-img-top bike" alt="user">
+                        </div>
+
+                        <div class="card-body">
+
+                            <h3>Quality Service</h3>
+                            <p class="card-text">We provide the best bike service you can get. The best part is we will
+                                service free for 1st 5 years. So you don't have to worry a bit. Happy vroom vroom.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 p-1">
+                        <div class="d-flex justify-content-center">
+                            <img src="images/repair-2.jpg" class="card-img-top bike" alt="user">
+                        </div>
+
+                        <div class="card-body">
+
+                            <h3>Experienced Mechanics</h3>
+                            <p class="card-text">Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 p-1">
+                        <div class="d-flex justify-content-center">
+                            <img src="images/repair-3.jpg" class="card-img-top bike" alt="user">
+                        </div>
+
+                        <div class="card-body">
+
+                            <h3>Best Workplace</h3>
+                            <p class="card-text">Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <!-- subscribe (extra-part) -->
+        <section id="subscribe" style="height:300px;"
+            class="container-fluid d-flex justify-content-center bg-subscribe align-items-center rounded-3 mt-5">
+            
+            <div class="span-default">
+                <h3>STAY IN TOUCH WITH US.</h3>
+                <h6>Get updates on sales, specials and more</h6>
+                <br>
+                <input class="form-control" type="text">
+                <button class="btn btn-warning mt-2">SUBMIT</button>
+            </div>
+
+        </section>
+    </footer>
+
+    <!-- bootstrap js  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

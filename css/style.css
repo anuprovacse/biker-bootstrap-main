@@ -1,0 +1,86 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:display=swap");
+
+/* common styles and utilities */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/*-----------------------------
+         Main css
+    ---------------------------- */
+
+/* header css */
+header {
+  color: #e0e0e0;
+  font-weight: 300;
+}
+.nav-color {
+  color: rgb(250, 239, 239);
+}
+
+.nav-text {
+  color: white !important;
+}
+.nav-text:hover {
+  color: #e76f51 !important;
+}
+
+.header-bg,
+.bg-subscribe,
+.bg-nav {
+  background-color: #264653;
+}
+.header-h1 {
+  font-size: 48px;
+  color: #fff;
+}
+.header-h6 {
+  font-size: 14px;
+}
+
+.btn-purchase {
+  background-color: #e76f51;
+  color: white;
+  padding: 10 46px;
+}
+
+.btn-purchase:hover {
+  background-color: rgb(247, 185, 71);
+  /* border: 1px solid red; */
+  color: rgb(14, 11, 11);
+}
+.bike:hover {
+  transform: scale(1.1);
+}
+
+/* main css */
+main {
+}
+
+.grayscale {
+  filter: grayscale(100%);
+}
+
+.client-section {
+  margin: 100px 0;
+}
+.client-review p {
+  color: #6c6c6c;
+}
+
+.client-review .star,
+.span-default {
+  color: #e76f51;
+}
+
+.client-review .customer-h6 {
+  color: #23a6f0;
+}
+.rounded-client {
+  height: 149px;
+  width: 149px;
+
+  border-radius: 50%;
+}
